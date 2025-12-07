@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nazev": "Statek U Jabloně",
+    "adresa": "Lhota 12, 277 31",
+    "gps_lat": 50.3295,
+    "gps_lng": 14.5407,
+    "telefon": "+420777123456",
+    "otevreno_od": "08:00",
+    "otevreno_do": "18:00",
+    "foto": "https://picsum.photos/800/400?random=1"
+  },
+  {
+    "id": 2,
+    "nazev": "Zelenina Pražská",
+    "adresa": "Praha – Újezd",
+    "gps_lat": 50.0595,
+    "gps_lng": 14.4213,
+    "telefon": "+420606987654",
+    "otevreno_od": "09:00",
+    "otevreno_do": "17:00",
+    "foto": "https://picsum.photos/800/400?random=2"
+  },
+  {
+    "id": 3,
+    "nazev": "Sady pod kopcem",
+    "adresa": "Kralupy nad Vltavou",
+    "gps_lat": 50.241,
+    "gps_lng": 14.3102,
+    "telefon": "+420705321789",
+    "otevreno_od": "10:00",
+    "otevreno_do": "18:00",
+    "foto": "https://picsum.photos/800/400?random=3"
+  }
+]

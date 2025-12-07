@@ -1,0 +1,69 @@
+import { Link } from "expo-router";
+import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
+
+export default function HomeScreen() {
+  return (
+    <View style={styles.container}>
+
+      {/* Hlavní obrázek košíku */}
+      <Image
+        source={{ uri: "https://i.imgur.com/qs9fO6A.jpeg" }}
+        style={styles.heroImage}
+      />
+
+      <Text style={styles.title}>Tržiště</Text>
+      <Text style={styles.subtitle}>Vyberte si sekci aplikace</Text>
+
+      {/* Tlačítko PĚSTITELÉ */}
+      <Link href="/pestitele" asChild>
+        <TouchableOpacity style={styles.btn}>
+          <Text style={styles.btnText}>Pěstitelé 🌱</Text>
+        </TouchableOpacity>
+      </Link>
+
+      {/* Tlačítko MAPA */}
+      <Link href="/mapa" asChild>
+        <TouchableOpacity style={styles.btn}>
+          <Text style={styles.btnText}>Mapa 📍</Text>
+        </TouchableOpacity>
+      </Link>
+
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 60,
+    alignItems: "center",
+    backgroundColor: "#fff",
+  },
+  heroImage: {
+    width: "85%",
+    height: 230,
+    borderRadius: 16,
+    marginBottom: 25,
+  },
+  title: {
+    fontSize: 36,
+    fontWeight: "bold",
+  },
+  subtitle: {
+    fontSize: 18,
+    color: "#666",
+    marginBottom: 30,
+  },
+  btn: {
+    width: "70%",
+    backgroundColor: "#4CAF50",
+    paddingVertical: 15,
+    borderRadius: 12,
+    marginTop: 15,
+  },
+  btnText: {
+    fontSize: 20,
+    color: "white",
+    textAlign: "center",
+  },
+});
