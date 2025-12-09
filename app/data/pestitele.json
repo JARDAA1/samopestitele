@@ -8,7 +8,43 @@
     "telefon": "+420777123456",
     "otevreno_od": "08:00",
     "otevreno_do": "18:00",
-    "foto": "https://picsum.photos/800/400?random=1"
+    "foto": "https://picsum.photos/800/400?random=1",
+    "rating": 4.8,
+    "produkty": [
+      { "nazev": "Jablka", "cena": 35 },
+      { "nazev": "Hrušky", "cena": 40 },
+      { "nazev": "Švestky", "cena": 45 },
+      { "nazev": "Meruňky", "cena": 55 }
+    ],
+    "reviews": [
+      {
+        "jmeno": "Jan Novák",
+        "hodnoceni": 5,
+        "text": "Výborné bio ovoce, doporučuji!"
+      },
+      {
+        "jmeno": "Marie Svobodová",
+        "hodnoceni": 4,
+        "text": "Čerstvé a chutné produkty."
+      },
+      {
+        "jmeno": "Petr Kouřil",
+        "hodnoceni": 5,
+        "text": "Nejlepší jablka co jsem kdy jedl!"
+      }
+    ],
+    "udalosti": [
+      {
+        "nazev": "Sklizeň jablek",
+        "datum": "15.9.2024",
+        "popis": "Přijďte si natrhat vlastní jablka přímo ze sadu!"
+      },
+      {
+        "nazev": "Den otevřených dveří",
+        "datum": "1.10.2024",
+        "popis": "Prohlídka statku a ochutnávka produktů zdarma."
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,7 +55,34 @@
     "telefon": "+420606987654",
     "otevreno_od": "09:00",
     "otevreno_do": "17:00",
-    "foto": "https://picsum.photos/800/400?random=2"
+    "foto": "https://picsum.photos/800/400?random=2",
+    "rating": 4.5,
+    "produkty": [
+      { "nazev": "Rajčata", "cena": 50 },
+      { "nazev": "Okurky", "cena": 30 },
+      { "nazev": "Paprika", "cena": 60 },
+      { "nazev": "Saláty", "cena": 25 },
+      { "nazev": "Cuketa", "cena": 35 }
+    ],
+    "reviews": [
+      {
+        "jmeno": "Petr Dvořák",
+        "hodnoceni": 5,
+        "text": "Nejlepší zelenina v Praze!"
+      },
+      {
+        "jmeno": "Anna Nová",
+        "hodnoceni": 4,
+        "text": "Vždy čerstvé, kvalitní produkty."
+      }
+    ],
+    "udalosti": [
+      {
+        "nazev": "Sklizeň rajčat",
+        "datum": "20.8.2024",
+        "popis": "Pomozte nám se sklizní a vezměte si domů čerstvá rajčata!"
+      }
+    ]
   },
   {
     "id": 3,
@@ -30,6 +93,32 @@
     "telefon": "+420705321789",
     "otevreno_od": "10:00",
     "otevreno_do": "18:00",
-    "foto": "https://picsum.photos/800/400?random=3"
+    "foto": "https://picsum.photos/800/400?random=3",
+    "rating": 4.3,
+    "produkty": [
+      { "nazev": "Jahody", "cena": 120 },
+      { "nazev": "Maliny", "cena": 150 },
+      { "nazev": "Ostružiny", "cena": 140 },
+      { "nazev": "Rybíz", "cena": 80 }
+    ],
+    "reviews": [
+      {
+        "jmeno": "Lucie Králová",
+        "hodnoceni": 4,
+        "text": "Skvělé jahody, trochu dražší ale stojí to za to."
+      },
+      {
+        "jmeno": "Martin Veselý",
+        "hodnoceni": 5,
+        "text": "Nejchutnější maliny široko daleko!"
+      }
+    ],
+    "udalosti": [
+      {
+        "nazev": "Sběr jahod",
+        "datum": "15.6.2024",
+        "popis": "Přijďte si nasbírat vlastní jahody v našich sadech."
+      }
+    ]
   }
 ]
